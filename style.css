@@ -1,0 +1,195 @@
+
+.main{
+    background-color: rgb(248, 129, 18);
+    width: 100%;
+    height: 100vh;
+}
+.nav-link {
+    color: white;
+}
+.navbar-nav {
+    margin: auto;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.fanta{
+    width: 40%;
+    position: absolute;
+    z-index: 3;
+
+}
+
+.lemon{
+    width: 14%;
+    position: absolute;
+    top: 12%;
+    right: 52%;
+    z-index: 2;
+}
+.orange{
+    width: 20%;
+    position: absolute;
+    z-index: 4;
+    bottom: 4%;
+    left: 54%;
+}
+.headFanta{
+    color: white;
+    font-size: 24vw;
+    position: relative;
+    z-index: 1;
+}
+.leaf{
+    width: 10%;
+    position: absolute;
+    right: 90%;
+}
+.leaf2{
+    width: 8%;
+    position: absolute;
+    right: 85%;
+    bottom: 8%;
+}
+.leaf1{
+    width: 20%;
+    position: absolute;
+    left: 80%;
+    top: 10%;
+}
+.leaf21{
+    width: 8%;
+    position: absolute;
+    left: 85%;
+    bottom: 8%;
+}
+
+
+.two{
+    display: flex;
+    margin-top: 8%;
+    background-color: rgb(105, 42, 0);
+    height: 100vh;
+}
+
+.left-two, .right-two{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    margin-top: 10%;
+    color: white;
+}
+
+.left-two svg{
+    transform: rotateX(50deg) scale(1.2);
+    width:100%;
+    /* margin-top: 20vh; */
+}
+.newH{
+    font-size: 50px;
+    line-height: 1.5;
+}
+.text{
+    width: 70%;
+}
+.three{
+    background-color: rgb(248, 129, 18);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+.cards{
+    
+}
+.card{
+    width: 18rem;
+    height: 26rem;
+    border-radius: 20px;
+    margin-top: 10%;
+    
+    
+}
+.card1{
+    /* background-color: rgb(81, 81, 236);  */
+    z-index: 1;
+    position: relative;
+}
+.card2{
+    /* background-color: orange; */
+}
+.card3{
+   
+    /* background-color: rgb(240, 70, 70); */
+}
+.cardLemon1{
+    width: 80%;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -20%;
+    transition: all cubic-bezier(0.19, 1, 0.25);
+}
+.cardH{
+    text-align: center;
+    z-index: 2;
+    bottom: 10%;
+    font-size: 30px;
+}
+.cardH, .btnAll {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+.btnAll {
+        bottom: 10px;
+        background-color: #083D6B;
+        color: white;
+        border-radius: 20px;
+}
+.btnAll:hover {
+    bottom: 10px;
+    background-color: #083D6B;
+    color: white;
+    border-radius: 20px;
+}
+.btn1{
+    background-color: orangered;
+}
+.btn2{
+    background-color: #BF0229;
+}
+.btn1:hover{
+    background-color: orangered;
+}
+.btn2:hover{
+    background-color: #BF0229;
+}
+.pepsi{
+    
+    width: 90%;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -8%;
+    transition: all cubic-bezier(0.19, 1, 0.25);
+}
+.coke{
+    width: 60%;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -3%;
+    transition: all cubic-bezier(0.19, 1, 0.25);
+}
